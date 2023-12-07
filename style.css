@@ -17,3 +17,18 @@
 /************************* YOUR SETTINGS *************************/
 
 /* add your css here, feel free to use comments and order them logically for better readability */
+body, html {
+   height: 100%;
+   margin: 0px;
+ }
+ 
+ .container {
+   text-align: center;
+   width: 1000px;
+   margin: auto;
+   background-color: yellow;
+ }
+ 
+ h1 {
+   font-size: 48px;
+ }
