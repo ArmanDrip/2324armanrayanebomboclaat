@@ -1,42 +1,45 @@
-/************************* DEBUG SETTINGS *************************/
-
-/* Settings to help find errors in your css
-   uncomment to enable */
-
-/* Add dotted line around all boxes.
-   This makes size of boxes visible.
-   Warning 1: this settings may change your layout.
-   Warning 2: keep the * as selector for all tags when uncommenting. */
-/*  * {border: 1px dotted black;}   */
-  
-/* Add semi-transparant dark background to all boxes
-   The more boxes are on top of eachother the darker tghe background color
-   Warning: keep the * as selector for all tags when uncommenting. */
-/*  * {background-color: rgba(0,0,0,5%);}  */
-
-/************************* YOUR SETTINGS *************************/
-
-/* add your css here, feel free to use comments and order them logically for better readability */
-body, html {
-   height: 100%;
-   margin: 0px;
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: #f7f7f7;
+   text-align: center;
  }
  
  .container {
-   text-align: center;
-   width: 1000px;
-   margin: auto;
-   background-color: yellow;
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 20px;
+   background-color: #fff;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
  }
  
- h1 {
-   font-size: 48px;
+ h1, h2, h3 {
+   color: #333;
  }
-
-
-/************************* HOME *************************/
-
-
-
-
-/************************* RICHTLIJNEN *************************/
+ 
+ u {
+   text-decoration: underline;
+ }
+ 
+ ol {
+   list-style-type: none;
+   padding: 0;
+ }
+ 
+ ol li {
+   margin-bottom: 10px;
+ }
+ 
+ div {
+   margin-bottom: 15px;
+ }
+ 
+ div[style="text-align: center;"] {
+   text-align: center;
+ }
+ 
+ div[style="text-align: left;"] {
+   text-align: left;
+ }
+ 
